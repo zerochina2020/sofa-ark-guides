@@ -17,11 +17,13 @@
 package com.alipay.sofa.ark.sample.impl;
 
 import com.alipay.sofa.ark.sample.facade.SampleService;
+import org.springframework.stereotype.Service;
 
 /**
  * @author qilong.zql
  * @since 0.1.0
  */
+@Service
 public class SampleServiceImpl implements SampleService {
     public String service() {
         return "A Sample Service";
